@@ -71,3 +71,15 @@ C:\Users\Andres.pena\source\repos\ReposAndres\Microservices-ASPNET-Core-Docker-A
 C:\Users\Andres.pena\source\repos\ReposAndres\Microservices-ASPNET-Core-Docker-Azure-RabbitMQ\TiendaServicios\TiendaServicios.Api.Autor\obj\Debug\net5.0\TiendaServicios.Api.Autor.pdb
 C:\Users\Andres.pena\source\repos\ReposAndres\Microservices-ASPNET-Core-Docker-Azure-RabbitMQ\TiendaServicios\TiendaServicios.Api.Autor\obj\Debug\net5.0\TiendaServicios.Api.Autor.genruntimeconfig.cache
 C:\Users\Andres.pena\source\repos\ReposAndres\Microservices-ASPNET-Core-Docker-Azure-RabbitMQ\TiendaServicios\TiendaServicios.Api.Autor\obj\Debug\net5.0\TiendaServicios.Api.Autor.csproj.AssemblyReference.cache
+C:\Users\Andres.pena\source\repos\ReposAndres\Microservices-ASPNET-Core-Docker-Azure-RabbitMQ\TiendaServicios\TiendaServicios.Api.Autor\bin\Debug\net5.0\MediatR.dll
+C:\Users\Andres.pena\source\repos\ReposAndres\Microservices-ASPNET-Core-Docker-Azure-RabbitMQ\TiendaServicios\TiendaServicios.Api.Autor\bin\Debug\net5.0\MediatR.Contracts.dll
+C:\Users\Andres.pena\source\repos\ReposAndres\Microservices-ASPNET-Core-Docker-Azure-RabbitMQ\TiendaServicios\TiendaServicios.Api.Autor\bin\Debug\net5.0\MediatR.Extensions.Microsoft.DependencyInjection.dll
+C:\Users\Andres.pena\source\repos\ReposAndres\Microservices-ASPNET-Core-Docker-Azure-RabbitMQ\TiendaServicios\TiendaServicios.Api.Autor\bin\Debug\net5.0\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+C:\Users\Andres.pena\source\repos\ReposAndres\Microservices-ASPNET-Core-Docker-Azure-RabbitMQ\TiendaServicios\TiendaServicios.Api.Autor\bin\Debug\net5.0\FluentValidation.dll
+C:\Users\Andres.pena\source\repos\ReposAndres\Microservices-ASPNET-Core-Docker-Azure-RabbitMQ\TiendaServicios\TiendaServicios.Api.Autor\bin\Debug\net5.0\FluentValidation.AspNetCore.dll
+C:\Users\Andres.pena\source\repos\ReposAndres\Microservices-ASPNET-Core-Docker-Azure-RabbitMQ\TiendaServicios\TiendaServicios.Api.Autor\bin\Debug\net5.0\FluentValidation.DependencyInjectionExtensions.dll
+C:\Users\Andres.pena\source\repos\ReposAndres\Microservices-ASPNET-Core-Docker-Azure-RabbitMQ\TiendaServicios\TiendaServicios.Api.Autor\bin\Debug\net5.0\AutoMapper.dll
+C:\Users\Andres.pena\source\repos\ReposAndres\Microservices-ASPNET-Core-Docker-Azure-RabbitMQ\TiendaServicios\TiendaServicios.Api.Autor\bin\Debug\net5.0\AutoMapper.Extensions.Microsoft.DependencyInjection.dll
+C:\Users\Andres.pena\source\repos\ReposAndres\Microservices-ASPNET-Core-Docker-Azure-RabbitMQ\TiendaServicios\TiendaServicios.Api.Autor\bin\Debug\net5.0\Microsoft.Extensions.Options.dll
+C:\Users\Andres.pena\source\repos\ReposAndres\Microservices-ASPNET-Core-Docker-Azure-RabbitMQ\TiendaServicios\TiendaServicios.Api.Autor\bin\Debug\net5.0\Microsoft.Extensions.Primitives.dll
+C:\Users\Andres.pena\source\repos\ReposAndres\Microservices-ASPNET-Core-Docker-Azure-RabbitMQ\TiendaServicios\TiendaServicios.Api.Autor\bin\Debug\net5.0\System.Runtime.CompilerServices.Unsafe.dll
