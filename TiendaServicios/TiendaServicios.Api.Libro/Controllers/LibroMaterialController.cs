@@ -1,5 +1,6 @@
 ﻿using MediatR;
 using Microsoft.AspNetCore.Mvc;
+using System;
 using System.Collections.Generic;
 using System.Threading.Tasks;
 using TiendaServicios.Api.Libro.Aplicacion;
@@ -27,13 +28,13 @@ namespace TiendaServicios.Api.Libro.Controllers
         [HttpGet]
         public async Task<ActionResult<List<LibroMaterialDto>>> GetLibros()
         {
-            return await _mediator.Send(new Consulta.ListLibros());
+            return await _mediator.Send(new Consulta.Ejecuta());
         }
 
         [HttpGet("{id}")]
         public async Task<ActionResult<LibroMaterialDto>> GetLibro(string id)
         {
-            return await _mediator.Send(new ConsultaFiltro.Ejecuta { LibroGuid = id });
+            return await _mediator.Send(new ConsultaFiltro.Ejecuta { LibroId = new Guid(id) });
         }
     }
 }

@@ -14,12 +14,12 @@ namespace TiendaServicios.Api.Libro.Aplicacion
     {
 
 
-        public class ListLibros : IRequest<List<LibroMaterialDto>>
+        public class Ejecuta : IRequest<List<LibroMaterialDto>>
         {
 
         }
 
-        public class Manejador : IRequestHandler<ListLibros, List<LibroMaterialDto>>
+        public class Manejador : IRequestHandler<Ejecuta, List<LibroMaterialDto>>
         {
 
             public readonly ContextoLibreria _contexto;
@@ -31,7 +31,7 @@ namespace TiendaServicios.Api.Libro.Aplicacion
                 _mapper = mapper;
             }
 
-            public async Task<List<LibroMaterialDto>> Handle(ListLibros request, CancellationToken cancellationToken)
+            public async Task<List<LibroMaterialDto>> Handle(Ejecuta request, CancellationToken cancellationToken)
             {
                 var libros = await _contexto.LibreriaMaterial.ToListAsync();
                 var librosDto = _mapper.Map<List<LibreriaMateria>, List<LibroMaterialDto>>(libros);
