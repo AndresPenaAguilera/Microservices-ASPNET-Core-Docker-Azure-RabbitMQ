@@ -7,11 +7,6 @@ C:\Users\Andres.pena\source\repos\ReposAndres\Microservices-ASPNET-Core-Docker-A
 C:\Users\Andres.pena\source\repos\ReposAndres\Microservices-ASPNET-Core-Docker-Azure-RabbitMQ\TiendaServicios\TiendaServicios.Api.Gateway\bin\Debug\net5.0\TiendaServicios.Api.Gateway.dll
 C:\Users\Andres.pena\source\repos\ReposAndres\Microservices-ASPNET-Core-Docker-Azure-RabbitMQ\TiendaServicios\TiendaServicios.Api.Gateway\bin\Debug\net5.0\ref\TiendaServicios.Api.Gateway.dll
 C:\Users\Andres.pena\source\repos\ReposAndres\Microservices-ASPNET-Core-Docker-Azure-RabbitMQ\TiendaServicios\TiendaServicios.Api.Gateway\bin\Debug\net5.0\TiendaServicios.Api.Gateway.pdb
-C:\Users\Andres.pena\source\repos\ReposAndres\Microservices-ASPNET-Core-Docker-Azure-RabbitMQ\TiendaServicios\TiendaServicios.Api.Gateway\bin\Debug\net5.0\Microsoft.OpenApi.dll
-C:\Users\Andres.pena\source\repos\ReposAndres\Microservices-ASPNET-Core-Docker-Azure-RabbitMQ\TiendaServicios\TiendaServicios.Api.Gateway\bin\Debug\net5.0\Swashbuckle.AspNetCore.Swagger.dll
-C:\Users\Andres.pena\source\repos\ReposAndres\Microservices-ASPNET-Core-Docker-Azure-RabbitMQ\TiendaServicios\TiendaServicios.Api.Gateway\bin\Debug\net5.0\Swashbuckle.AspNetCore.SwaggerGen.dll
-C:\Users\Andres.pena\source\repos\ReposAndres\Microservices-ASPNET-Core-Docker-Azure-RabbitMQ\TiendaServicios\TiendaServicios.Api.Gateway\bin\Debug\net5.0\Swashbuckle.AspNetCore.SwaggerUI.dll
-C:\Users\Andres.pena\source\repos\ReposAndres\Microservices-ASPNET-Core-Docker-Azure-RabbitMQ\TiendaServicios\TiendaServicios.Api.Gateway\obj\Debug\net5.0\TiendaServicios.Api.Gateway.csproj.AssemblyReference.cache
 C:\Users\Andres.pena\source\repos\ReposAndres\Microservices-ASPNET-Core-Docker-Azure-RabbitMQ\TiendaServicios\TiendaServicios.Api.Gateway\obj\Debug\net5.0\TiendaServicios.Api.Gateway.GeneratedMSBuildEditorConfig.editorconfig
 C:\Users\Andres.pena\source\repos\ReposAndres\Microservices-ASPNET-Core-Docker-Azure-RabbitMQ\TiendaServicios\TiendaServicios.Api.Gateway\obj\Debug\net5.0\TiendaServicios.Api.Gateway.AssemblyInfoInputs.cache
 C:\Users\Andres.pena\source\repos\ReposAndres\Microservices-ASPNET-Core-Docker-Azure-RabbitMQ\TiendaServicios\TiendaServicios.Api.Gateway\obj\Debug\net5.0\TiendaServicios.Api.Gateway.AssemblyInfo.cs
@@ -34,3 +29,5 @@ C:\Users\Andres.pena\source\repos\ReposAndres\Microservices-ASPNET-Core-Docker-A
 C:\Users\Andres.pena\source\repos\ReposAndres\Microservices-ASPNET-Core-Docker-Azure-RabbitMQ\TiendaServicios\TiendaServicios.Api.Gateway\bin\Debug\net5.0\Newtonsoft.Json.dll
 C:\Users\Andres.pena\source\repos\ReposAndres\Microservices-ASPNET-Core-Docker-Azure-RabbitMQ\TiendaServicios\TiendaServicios.Api.Gateway\bin\Debug\net5.0\Newtonsoft.Json.Bson.dll
 C:\Users\Andres.pena\source\repos\ReposAndres\Microservices-ASPNET-Core-Docker-Azure-RabbitMQ\TiendaServicios\TiendaServicios.Api.Gateway\bin\Debug\net5.0\Ocelot.dll
+C:\Users\Andres.pena\source\repos\ReposAndres\Microservices-ASPNET-Core-Docker-Azure-RabbitMQ\TiendaServicios\TiendaServicios.Api.Gateway\bin\Debug\net5.0\ocelot.json
+C:\Users\Andres.pena\source\repos\ReposAndres\Microservices-ASPNET-Core-Docker-Azure-RabbitMQ\TiendaServicios\TiendaServicios.Api.Gateway\obj\Debug\net5.0\TiendaServicios.Api.Gateway.csproj.AssemblyReference.cache

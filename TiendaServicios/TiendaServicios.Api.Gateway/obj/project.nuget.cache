@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "93UpNaM1enVg8yQmwPWPN0FH0l+rhzPcllFmXbVLhPFpFLS25Pq6exyFwITffbFcCBILLZzkGwBx1wAoOyohUg==",
+  "dgSpecHash": "35MyBSPL/ztmbvl7xwcjnCAEyHBOAJjwAcB+YGCFLrnAlL3o7eIYeq7zKj/6mqtfxdExEk99NU0Us2EHes2WBQ==",
   "success": true,
   "projectFilePath": "C:\\Users\\Andres.pena\\source\\repos\\ReposAndres\\Microservices-ASPNET-Core-Docker-Azure-RabbitMQ\\TiendaServicios\\TiendaServicios.Api.Gateway\\TiendaServicios.Api.Gateway.csproj",
   "expectedPackageFiles": [
@@ -9,17 +9,12 @@
     "C:\\Users\\Andres.pena\\.nuget\\packages\\microsoft.aspnetcore.middlewareanalysis\\5.0.0\\microsoft.aspnetcore.middlewareanalysis.5.0.0.nupkg.sha512",
     "C:\\Users\\Andres.pena\\.nuget\\packages\\microsoft.aspnetcore.mvc.newtonsoftjson\\5.0.0\\microsoft.aspnetcore.mvc.newtonsoftjson.5.0.0.nupkg.sha512",
     "C:\\Users\\Andres.pena\\.nuget\\packages\\microsoft.csharp\\4.7.0\\microsoft.csharp.4.7.0.nupkg.sha512",
-    "C:\\Users\\Andres.pena\\.nuget\\packages\\microsoft.extensions.apidescription.server\\3.0.0\\microsoft.extensions.apidescription.server.3.0.0.nupkg.sha512",
     "C:\\Users\\Andres.pena\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\5.0.0\\microsoft.extensions.dependencyinjection.abstractions.5.0.0.nupkg.sha512",
     "C:\\Users\\Andres.pena\\.nuget\\packages\\microsoft.extensions.diagnosticadapter\\3.1.10\\microsoft.extensions.diagnosticadapter.3.1.10.nupkg.sha512",
-    "C:\\Users\\Andres.pena\\.nuget\\packages\\microsoft.openapi\\1.2.3\\microsoft.openapi.1.2.3.nupkg.sha512",
+    "C:\\Users\\Andres.pena\\.nuget\\packages\\microsoft.visualstudio.azure.containers.tools.targets\\1.11.1\\microsoft.visualstudio.azure.containers.tools.targets.1.11.1.nupkg.sha512",
     "C:\\Users\\Andres.pena\\.nuget\\packages\\newtonsoft.json\\12.0.2\\newtonsoft.json.12.0.2.nupkg.sha512",
     "C:\\Users\\Andres.pena\\.nuget\\packages\\newtonsoft.json.bson\\1.0.2\\newtonsoft.json.bson.1.0.2.nupkg.sha512",
     "C:\\Users\\Andres.pena\\.nuget\\packages\\ocelot\\17.0.1\\ocelot.17.0.1.nupkg.sha512",
-    "C:\\Users\\Andres.pena\\.nuget\\packages\\swashbuckle.aspnetcore\\5.6.3\\swashbuckle.aspnetcore.5.6.3.nupkg.sha512",
-    "C:\\Users\\Andres.pena\\.nuget\\packages\\swashbuckle.aspnetcore.swagger\\5.6.3\\swashbuckle.aspnetcore.swagger.5.6.3.nupkg.sha512",
-    "C:\\Users\\Andres.pena\\.nuget\\packages\\swashbuckle.aspnetcore.swaggergen\\5.6.3\\swashbuckle.aspnetcore.swaggergen.5.6.3.nupkg.sha512",
-    "C:\\Users\\Andres.pena\\.nuget\\packages\\swashbuckle.aspnetcore.swaggerui\\5.6.3\\swashbuckle.aspnetcore.swaggerui.5.6.3.nupkg.sha512",
     "C:\\Users\\Andres.pena\\.nuget\\packages\\system.diagnostics.diagnosticsource\\4.7.1\\system.diagnostics.diagnosticsource.4.7.1.nupkg.sha512",
     "C:\\Users\\Andres.pena\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\5.0.12\\microsoft.netcore.app.host.win-x64.5.0.12.nupkg.sha512"
   ],

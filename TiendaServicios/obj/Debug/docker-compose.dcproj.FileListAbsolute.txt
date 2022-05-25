@@ -57,3 +57,17 @@ C:\Users\Andres.pena\source\repos\ReposAndres\Microservices-ASPNET-Core-Docker-A
 C:\Users\Andres.pena\source\repos\ReposAndres\Microservices-ASPNET-Core-Docker-Azure-RabbitMQ\TiendaServicios\bin\Debug\K4os.Hash.xxHash.dll
 C:\Users\Andres.pena\source\repos\ReposAndres\Microservices-ASPNET-Core-Docker-Azure-RabbitMQ\TiendaServicios\bin\Debug\System.Security.Cryptography.ProtectedData.dll
 C:\Users\Andres.pena\source\repos\ReposAndres\Microservices-ASPNET-Core-Docker-Azure-RabbitMQ\TiendaServicios\bin\Debug\TiendaServicios.Api.CarritoCompra.pdb
+C:\Users\Andres.pena\source\repos\ReposAndres\Microservices-ASPNET-Core-Docker-Azure-RabbitMQ\TiendaServicios\bin\Debug\TiendaServicios.Api.Gateway.deps.json
+C:\Users\Andres.pena\source\repos\ReposAndres\Microservices-ASPNET-Core-Docker-Azure-RabbitMQ\TiendaServicios\bin\Debug\TiendaServicios.Api.Gateway.runtimeconfig.json
+C:\Users\Andres.pena\source\repos\ReposAndres\Microservices-ASPNET-Core-Docker-Azure-RabbitMQ\TiendaServicios\bin\Debug\TiendaServicios.Api.Gateway.runtimeconfig.dev.json
+C:\Users\Andres.pena\source\repos\ReposAndres\Microservices-ASPNET-Core-Docker-Azure-RabbitMQ\TiendaServicios\bin\Debug\ocelot.json
+C:\Users\Andres.pena\source\repos\ReposAndres\Microservices-ASPNET-Core-Docker-Azure-RabbitMQ\TiendaServicios\bin\Debug\TiendaServicios.Api.Gateway.exe
+C:\Users\Andres.pena\source\repos\ReposAndres\Microservices-ASPNET-Core-Docker-Azure-RabbitMQ\TiendaServicios\bin\Debug\TiendaServicios.Api.Gateway.dll
+C:\Users\Andres.pena\source\repos\ReposAndres\Microservices-ASPNET-Core-Docker-Azure-RabbitMQ\TiendaServicios\bin\Debug\Ocelot.dll
+C:\Users\Andres.pena\source\repos\ReposAndres\Microservices-ASPNET-Core-Docker-Azure-RabbitMQ\TiendaServicios\bin\Debug\Newtonsoft.Json.dll
+C:\Users\Andres.pena\source\repos\ReposAndres\Microservices-ASPNET-Core-Docker-Azure-RabbitMQ\TiendaServicios\bin\Debug\Microsoft.Extensions.DiagnosticAdapter.dll
+C:\Users\Andres.pena\source\repos\ReposAndres\Microservices-ASPNET-Core-Docker-Azure-RabbitMQ\TiendaServicios\bin\Debug\Microsoft.AspNetCore.Mvc.NewtonsoftJson.dll
+C:\Users\Andres.pena\source\repos\ReposAndres\Microservices-ASPNET-Core-Docker-Azure-RabbitMQ\TiendaServicios\bin\Debug\Microsoft.AspNetCore.MiddlewareAnalysis.dll
+C:\Users\Andres.pena\source\repos\ReposAndres\Microservices-ASPNET-Core-Docker-Azure-RabbitMQ\TiendaServicios\bin\Debug\Microsoft.AspNetCore.JsonPatch.dll
+C:\Users\Andres.pena\source\repos\ReposAndres\Microservices-ASPNET-Core-Docker-Azure-RabbitMQ\TiendaServicios\bin\Debug\Newtonsoft.Json.Bson.dll
+C:\Users\Andres.pena\source\repos\ReposAndres\Microservices-ASPNET-Core-Docker-Azure-RabbitMQ\TiendaServicios\bin\Debug\TiendaServicios.Api.Gateway.pdb
