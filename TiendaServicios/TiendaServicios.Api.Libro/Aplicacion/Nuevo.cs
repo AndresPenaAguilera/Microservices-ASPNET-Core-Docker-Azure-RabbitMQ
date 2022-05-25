@@ -37,12 +37,12 @@ namespace TiendaServicios.Api.Libro.Aplicacion
             }
             public async Task<Unit> Handle(Ejecuta request, CancellationToken cancellationToken)
             {
-                var libro = new LibreriaMateria
+                var libro = new LibreriaMaterial
                 {
                     Titulo = request.Titulo,
                     FechaPublicacion = request.FechaPublicacion,
                     AutorLibro = request.AutorLibro,
-                    LibreriaMateriaId = Guid.NewGuid()
+                    LibreriaMaterialId = Guid.NewGuid()
                 };
 
                 _contexto.LibreriaMaterial.Add(libro);

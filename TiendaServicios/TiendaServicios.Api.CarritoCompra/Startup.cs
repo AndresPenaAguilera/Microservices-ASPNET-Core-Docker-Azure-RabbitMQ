@@ -15,7 +15,7 @@ using System.Threading.Tasks;
 using TiendaServicios.Api.CarritoCompra.Aplicacion;
 using TiendaServicios.Api.CarritoCompra.Persistencia;
 using TiendaServicios.Api.CarritoCompra.RemoteInterface;
-using TiendaServicios.Api.CarritoCompra.RemoteServices;
+using TiendaServicios.Api.CarritoCompra.RemoteService;
 
 namespace TiendaServicios.Api.CarritoCompra
 {
@@ -31,12 +31,13 @@ namespace TiendaServicios.Api.CarritoCompra
         // This method gets called by the runtime. Use this method to add services to the container.
         public void ConfigureServices(IServiceCollection services)
         {
-            services.AddScoped<ILibroService, LibroService>();
-            services.AddControllers();
+            services.AddScoped<ILibrosService, LibrosService>();
+            
             services.AddSwaggerGen(c =>
             {
                 c.SwaggerDoc("v1", new OpenApiInfo { Title = "TiendaServicios.Api.CarritoCompra", Version = "v1" });
             });
+
             services.AddDbContext<CarritoContexto>(options =>
             {
                 options.UseMySQL(Configuration.GetConnectionString("ConexionDatabase"));
@@ -47,6 +48,8 @@ namespace TiendaServicios.Api.CarritoCompra
             services.AddHttpClient("Libros", config=> {
                 config.BaseAddress = new Uri(Configuration["Services:Libros"]);
             });
+
+            services.AddControllers();
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.

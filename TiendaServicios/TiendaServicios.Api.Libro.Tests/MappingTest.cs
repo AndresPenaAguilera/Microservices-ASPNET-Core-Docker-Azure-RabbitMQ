@@ -14,7 +14,7 @@ namespace TiendaServicios.Api.Libro.Tests
         public MappingTest() 
         {
 
-            CreateMap<LibreriaMateria, LibroMaterialDto>();
+            CreateMap<LibreriaMaterial, LibroMaterialDto>();
         }
     }
 }

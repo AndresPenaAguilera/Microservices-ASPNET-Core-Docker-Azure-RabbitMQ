@@ -1,0 +1,20 @@
+name: dockercompose4268090027670310593
+services:
+  tiendaservicios.api.autor:
+    build:
+      context: C:\Users\Andres.pena\source\repos\ReposAndres\Microservices-ASPNET-Core-Docker-Azure-RabbitMQ\TiendaServicios
+      dockerfile: TiendaServicios.Api.Autor/Dockerfile
+    environment:
+      ASPNETCORE_ENVIRONMENT: Development
+    image: tiendaserviciosapiautor
+    networks:
+      default: null
+    ports:
+    - mode: ingress
+      target: 80
+      published: "6104"
+      protocol: tcp
+networks:
+  default:
+    name: microervicenet
+    external: true

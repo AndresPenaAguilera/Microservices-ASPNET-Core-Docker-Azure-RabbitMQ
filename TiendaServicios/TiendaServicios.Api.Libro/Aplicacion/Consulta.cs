@@ -34,7 +34,7 @@ namespace TiendaServicios.Api.Libro.Aplicacion
             public async Task<List<LibroMaterialDto>> Handle(Ejecuta request, CancellationToken cancellationToken)
             {
                 var libros = await _contexto.LibreriaMaterial.ToListAsync();
-                var librosDto = _mapper.Map<List<LibreriaMateria>, List<LibroMaterialDto>>(libros);
+                var librosDto = _mapper.Map<List<LibreriaMaterial>, List<LibroMaterialDto>>(libros);
                 return librosDto;
             }
         }

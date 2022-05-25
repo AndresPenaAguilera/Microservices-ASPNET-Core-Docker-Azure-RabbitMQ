@@ -6,7 +6,7 @@ using Microsoft.EntityFrameworkCore.Metadata;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 using TiendaServicios.Api.Libro.Persistencia;
 
-namespace TiendaServicios.Api.Libro.Migrations
+namespace tiendaservicios.api.libro.Migrations
 {
     [DbContext(typeof(ContextoLibreria))]
     partial class ContextoLibreriaModelSnapshot : ModelSnapshot
@@ -19,9 +19,9 @@ namespace TiendaServicios.Api.Libro.Migrations
                 .HasAnnotation("ProductVersion", "5.0.17")
                 .HasAnnotation("SqlServer:ValueGenerationStrategy", SqlServerValueGenerationStrategy.IdentityColumn);
 
-            modelBuilder.Entity("TiendaServicios.Api.Libro.Modelo.LibreriaMateria", b =>
+            modelBuilder.Entity("TiendaServicios.Api.Libro.Modelo.LibreriaMaterial", b =>
                 {
-                    b.Property<Guid?>("LibreriaMateriaId")
+                    b.Property<Guid?>("LibreriaMaterialId")
                         .ValueGeneratedOnAdd()
                         .HasColumnType("uniqueidentifier");
 
@@ -34,7 +34,7 @@ namespace TiendaServicios.Api.Libro.Migrations
                     b.Property<string>("Titulo")
                         .HasColumnType("nvarchar(max)");
 
-                    b.HasKey("LibreriaMateriaId");
+                    b.HasKey("LibreriaMaterialId");
 
                     b.ToTable("LibreriaMaterial");
                 });

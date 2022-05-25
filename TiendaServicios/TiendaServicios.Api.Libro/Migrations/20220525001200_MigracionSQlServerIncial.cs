@@ -1,9 +1,9 @@
 ﻿using System;
 using Microsoft.EntityFrameworkCore.Migrations;
 
-namespace TiendaServicios.Api.Libro.Migrations
+namespace tiendaservicios.api.libro.Migrations
 {
-    public partial class MigracionSqlServerInicial : Migration
+    public partial class MigracionSQlServerIncial : Migration
     {
         protected override void Up(MigrationBuilder migrationBuilder)
         {
@@ -11,14 +11,14 @@ namespace TiendaServicios.Api.Libro.Migrations
                 name: "LibreriaMaterial",
                 columns: table => new
                 {
-                    LibreriaMateriaId = table.Column<Guid>(type: "uniqueidentifier", nullable: false),
+                    LibreriaMaterialId = table.Column<Guid>(type: "uniqueidentifier", nullable: false),
                     Titulo = table.Column<string>(type: "nvarchar(max)", nullable: true),
                     FechaPublicacion = table.Column<DateTime>(type: "datetime2", nullable: true),
                     AutorLibro = table.Column<Guid>(type: "uniqueidentifier", nullable: true)
                 },
                 constraints: table =>
                 {
-                    table.PrimaryKey("PK_LibreriaMaterial", x => x.LibreriaMateriaId);
+                    table.PrimaryKey("PK_LibreriaMaterial", x => x.LibreriaMaterialId);
                 });
         }
 

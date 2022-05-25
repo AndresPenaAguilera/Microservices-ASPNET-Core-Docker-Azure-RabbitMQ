@@ -1,0 +1,79 @@
+name: dockercompose4268090027670310593
+services:
+  tiendaservicios.api.autor:
+    build:
+      context: C:\Users\Andres.pena\source\repos\ReposAndres\Microservices-ASPNET-Core-Docker-Azure-RabbitMQ\TiendaServicios
+      dockerfile: TiendaServicios.Api.Autor/Dockerfile
+      labels:
+        com.microsoft.created-by: visual-studio
+        com.microsoft.visual-studio.project-name: TiendaServicios.Api.Autor
+      target: base
+    container_name: TiendaServicios.Api.Autor
+    entrypoint:
+    - tail
+    - -f
+    - /dev/null
+    environment:
+      ASPNETCORE_ENVIRONMENT: Development
+      ASPNETCORE_LOGGING__CONSOLE__DISABLECOLORS: "true"
+      DOTNET_USE_POLLING_FILE_WATCHER: "1"
+      NUGET_FALLBACK_PACKAGES: /root/.nuget/fallbackpackages
+    image: tiendaserviciosapiautor:dev
+    labels:
+      com.microsoft.visualstudio.debuggee.arguments: ' --additionalProbingPath /root/.nuget/packages
+        --additionalProbingPath /root/.nuget/fallbackpackages  "/app/bin/Debug/net5.0/TiendaServicios.Api.Autor.dll"'
+      com.microsoft.visualstudio.debuggee.killprogram: /bin/sh -c "if PID=$$(pidof
+        dotnet); then kill $$PID; fi"
+      com.microsoft.visualstudio.debuggee.program: dotnet
+      com.microsoft.visualstudio.debuggee.workingdirectory: /app
+    networks:
+      default: null
+    ports:
+    - mode: ingress
+      target: 80
+      published: "6104"
+      protocol: tcp
+    tty: true
+    volumes:
+    - type: bind
+      source: C:\Users\Andres.pena\source\repos\ReposAndres\Microservices-ASPNET-Core-Docker-Azure-RabbitMQ\TiendaServicios\TiendaServicios.Api.Autor
+      target: /app
+      bind:
+        create_host_path: true
+    - type: bind
+      source: C:\Users\Andres.pena\source\repos\ReposAndres\Microservices-ASPNET-Core-Docker-Azure-RabbitMQ\TiendaServicios
+      target: /src
+      bind:
+        create_host_path: true
+    - type: bind
+      source: C:\Users\Andres.pena\vsdbg\vs2017u5
+      target: /remote_debugger
+      bind:
+        create_host_path: true
+    - type: bind
+      source: C:\Users\Andres.pena\.nuget\packages\
+      target: /root/.nuget/packages
+      read_only: true
+      bind:
+        create_host_path: true
+    - type: bind
+      source: C:\Program Files (x86)\Microsoft Visual Studio\Shared\NuGetPackages
+      target: /root/.nuget/fallbackpackages
+      read_only: true
+      bind:
+        create_host_path: true
+    - type: bind
+      source: C:\Users\Andres.pena\AppData\Roaming/ASP.NET/Https
+      target: /root/.aspnet/https
+      read_only: true
+      bind:
+        create_host_path: true
+    - type: bind
+      source: C:\Users\Andres.pena\AppData\Roaming/Microsoft/UserSecrets
+      target: /root/.microsoft/usersecrets
+      read_only: true
+      bind:
+        create_host_path: true
+networks:
+  default:
+    name: dockercompose4268090027670310593_default

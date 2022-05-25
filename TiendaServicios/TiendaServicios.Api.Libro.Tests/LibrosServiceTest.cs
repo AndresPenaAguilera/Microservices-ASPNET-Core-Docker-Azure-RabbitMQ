@@ -17,14 +17,14 @@ namespace TiendaServicios.Api.Libro.Tests
     public class LibrosServiceTest
     {
 
-        private IEnumerable<LibreriaMateria> ObtenerDataPrueba() 
+        private IEnumerable<LibreriaMaterial> ObtenerDataPrueba() 
         {
-            A.Configure<LibreriaMateria>()
+            A.Configure<LibreriaMaterial>()
                 .Fill(x => x.Titulo).AsArticleTitle()
-                .Fill(x => x.LibreriaMateriaId, () => { return Guid.NewGuid(); });
+                .Fill(x => x.LibreriaMaterialId, () => { return Guid.NewGuid(); });
 
-            var lista = A.ListOf<LibreriaMateria>(30);
-            lista[0].LibreriaMateriaId = Guid.Empty;
+            var lista = A.ListOf<LibreriaMaterial>(30);
+            lista[0].LibreriaMaterialId = Guid.Empty;
 
             return lista;
         }
@@ -33,18 +33,18 @@ namespace TiendaServicios.Api.Libro.Tests
         {
             var dataPrueba = ObtenerDataPrueba().AsQueryable();
 
-            var dbSet = new Mock<DbSet<LibreriaMateria>>();
+            var dbSet = new Mock<DbSet<LibreriaMaterial>>();
 
-            dbSet.As<IQueryable<LibreriaMateria>>().Setup(x => x.Provider).Returns(dataPrueba.Provider);
-            dbSet.As<IQueryable<LibreriaMateria>>().Setup(x => x.Expression).Returns(dataPrueba.Expression);
-            dbSet.As<IQueryable<LibreriaMateria>>().Setup(x => x.ElementType).Returns(dataPrueba.ElementType);
-            dbSet.As<IQueryable<LibreriaMateria>>().Setup(x => x.GetEnumerator()).Returns(dataPrueba.GetEnumerator());
+            dbSet.As<IQueryable<LibreriaMaterial>>().Setup(x => x.Provider).Returns(dataPrueba.Provider);
+            dbSet.As<IQueryable<LibreriaMaterial>>().Setup(x => x.Expression).Returns(dataPrueba.Expression);
+            dbSet.As<IQueryable<LibreriaMaterial>>().Setup(x => x.ElementType).Returns(dataPrueba.ElementType);
+            dbSet.As<IQueryable<LibreriaMaterial>>().Setup(x => x.GetEnumerator()).Returns(dataPrueba.GetEnumerator());
 
-            dbSet.As<IAsyncEnumerable<LibreriaMateria>>().Setup(x => x.GetAsyncEnumerator(new System.Threading.CancellationToken()))
-            .Returns(new AsyncEnumerator<LibreriaMateria>(dataPrueba.GetEnumerator()));
+            dbSet.As<IAsyncEnumerable<LibreriaMaterial>>().Setup(x => x.GetAsyncEnumerator(new System.Threading.CancellationToken()))
+            .Returns(new AsyncEnumerator<LibreriaMaterial>(dataPrueba.GetEnumerator()));
 
-            dbSet.As<IQueryable<LibreriaMateria>>().Setup(x => x.Provider)
-                .Returns(new AsyncQueryProvider<LibreriaMateria>(dataPrueba.Provider));
+            dbSet.As<IQueryable<LibreriaMaterial>>().Setup(x => x.Provider)
+                .Returns(new AsyncQueryProvider<LibreriaMaterial>(dataPrueba.Provider));
 
 
             var contexto = new Mock<ContextoLibreria>();
@@ -73,7 +73,7 @@ namespace TiendaServicios.Api.Libro.Tests
             var libro = await manejador.Handle(request, new System.Threading.CancellationToken());
 
             Assert.NotNull(libro);
-            Assert.True(libro.LibreriaMateriaId == Guid.Empty);
+            Assert.True(libro.LibreriaMaterialId == Guid.Empty);
         }
 
 

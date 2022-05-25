@@ -33,8 +33,8 @@ namespace TiendaServicios.Api.Libro.Aplicacion
 
             public async Task<LibroMaterialDto> Handle(Ejecuta request, CancellationToken cancellationToken)
             {
-                var libro = await _contexto.LibreriaMaterial.Where(x => x.LibreriaMateriaId == request.LibroId).FirstOrDefaultAsync();
-                var libroDto = _mapper.Map<LibreriaMateria, LibroMaterialDto>(libro);
+                var libro = await _contexto.LibreriaMaterial.Where(x => x.LibreriaMaterialId == request.LibroId).FirstOrDefaultAsync();
+                var libroDto = _mapper.Map<LibreriaMaterial, LibroMaterialDto>(libro);
                 return libroDto;
             }
         }

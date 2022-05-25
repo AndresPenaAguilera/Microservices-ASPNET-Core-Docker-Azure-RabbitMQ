@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "loHSFysM22b06okDy4SYZjVLi8gtTlGmMmgNFwRZeGx2C0zlLtxMgQsuneUq+OB5EHZW1Ig/6s3mVWGepMZMxA==",
+  "dgSpecHash": "M/xlgJTd4UI/cDO3kyTKaYYQOjFh4qsDPaeyML6txLUpJzt6c0Os/+I+9KWaRHN0Oojac7GPpBdcX72KhSA3xQ==",
   "success": true,
   "projectFilePath": "C:\\Users\\Andres.pena\\source\\repos\\ReposAndres\\Microservices-ASPNET-Core-Docker-Azure-RabbitMQ\\TiendaServicios\\TiendaServicios.Api.Autor\\TiendaServicios.Api.Autor.csproj",
   "expectedPackageFiles": [
@@ -31,6 +31,7 @@
     "C:\\Users\\Andres.pena\\.nuget\\packages\\microsoft.extensions.options\\6.0.0\\microsoft.extensions.options.6.0.0.nupkg.sha512",
     "C:\\Users\\Andres.pena\\.nuget\\packages\\microsoft.extensions.primitives\\6.0.0\\microsoft.extensions.primitives.6.0.0.nupkg.sha512",
     "C:\\Users\\Andres.pena\\.nuget\\packages\\microsoft.openapi\\1.2.3\\microsoft.openapi.1.2.3.nupkg.sha512",
+    "C:\\Users\\Andres.pena\\.nuget\\packages\\microsoft.visualstudio.azure.containers.tools.targets\\1.11.1\\microsoft.visualstudio.azure.containers.tools.targets.1.11.1.nupkg.sha512",
     "C:\\Users\\Andres.pena\\.nuget\\packages\\npgsql\\5.0.7\\npgsql.5.0.7.nupkg.sha512",
     "C:\\Users\\Andres.pena\\.nuget\\packages\\npgsql.entityframeworkcore.postgresql\\5.0.7\\npgsql.entityframeworkcore.postgresql.5.0.7.nupkg.sha512",
     "C:\\Users\\Andres.pena\\.nuget\\packages\\swashbuckle.aspnetcore\\5.6.3\\swashbuckle.aspnetcore.5.6.3.nupkg.sha512",
