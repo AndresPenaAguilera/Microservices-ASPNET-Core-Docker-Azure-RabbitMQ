@@ -24,4 +24,9 @@
     <PackageReference Include="Swashbuckle.AspNetCore" Version="5.6.3" />
   </ItemGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\TiendaServicios.Mensajeria.Email\TiendaServicios.Mensajeria.Email.csproj" />
+    <ProjectReference Include="..\TiendaServicios.RabbitMQ.Bus\TiendaServicios.RabbitMQ.Bus.csproj" />
+  </ItemGroup>
+
 </Project>

@@ -1,0 +1,12 @@
+C:\Users\Andres.pena\source\repos\ReposAndres\Microservices-ASPNET-Core-Docker-Azure-RabbitMQ\TiendaServicios\TiendaServicios.Mensajeria.Email\bin\Debug\net5.0\TiendaServicios.Mensajeria.Email.deps.json
+C:\Users\Andres.pena\source\repos\ReposAndres\Microservices-ASPNET-Core-Docker-Azure-RabbitMQ\TiendaServicios\TiendaServicios.Mensajeria.Email\bin\Debug\net5.0\TiendaServicios.Mensajeria.Email.dll
+C:\Users\Andres.pena\source\repos\ReposAndres\Microservices-ASPNET-Core-Docker-Azure-RabbitMQ\TiendaServicios\TiendaServicios.Mensajeria.Email\bin\Debug\net5.0\ref\TiendaServicios.Mensajeria.Email.dll
+C:\Users\Andres.pena\source\repos\ReposAndres\Microservices-ASPNET-Core-Docker-Azure-RabbitMQ\TiendaServicios\TiendaServicios.Mensajeria.Email\bin\Debug\net5.0\TiendaServicios.Mensajeria.Email.pdb
+C:\Users\Andres.pena\source\repos\ReposAndres\Microservices-ASPNET-Core-Docker-Azure-RabbitMQ\TiendaServicios\TiendaServicios.Mensajeria.Email\obj\Debug\net5.0\TiendaServicios.Mensajeria.Email.csproj.AssemblyReference.cache
+C:\Users\Andres.pena\source\repos\ReposAndres\Microservices-ASPNET-Core-Docker-Azure-RabbitMQ\TiendaServicios\TiendaServicios.Mensajeria.Email\obj\Debug\net5.0\TiendaServicios.Mensajeria.Email.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Andres.pena\source\repos\ReposAndres\Microservices-ASPNET-Core-Docker-Azure-RabbitMQ\TiendaServicios\TiendaServicios.Mensajeria.Email\obj\Debug\net5.0\TiendaServicios.Mensajeria.Email.AssemblyInfoInputs.cache
+C:\Users\Andres.pena\source\repos\ReposAndres\Microservices-ASPNET-Core-Docker-Azure-RabbitMQ\TiendaServicios\TiendaServicios.Mensajeria.Email\obj\Debug\net5.0\TiendaServicios.Mensajeria.Email.AssemblyInfo.cs
+C:\Users\Andres.pena\source\repos\ReposAndres\Microservices-ASPNET-Core-Docker-Azure-RabbitMQ\TiendaServicios\TiendaServicios.Mensajeria.Email\obj\Debug\net5.0\TiendaServicios.Mensajeria.Email.csproj.CoreCompileInputs.cache
+C:\Users\Andres.pena\source\repos\ReposAndres\Microservices-ASPNET-Core-Docker-Azure-RabbitMQ\TiendaServicios\TiendaServicios.Mensajeria.Email\obj\Debug\net5.0\TiendaServicios.Mensajeria.Email.dll
+C:\Users\Andres.pena\source\repos\ReposAndres\Microservices-ASPNET-Core-Docker-Azure-RabbitMQ\TiendaServicios\TiendaServicios.Mensajeria.Email\obj\Debug\net5.0\ref\TiendaServicios.Mensajeria.Email.dll
+C:\Users\Andres.pena\source\repos\ReposAndres\Microservices-ASPNET-Core-Docker-Azure-RabbitMQ\TiendaServicios\TiendaServicios.Mensajeria.Email\obj\Debug\net5.0\TiendaServicios.Mensajeria.Email.pdb

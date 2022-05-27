@@ -159,8 +159,6 @@ services:
       target: base
     container_name: TiendaServicios.Api.Gateway
     depends_on:
-      Services__Autor=http://tiendaservicios.api.dateway:
-        condition: service_started
       tiendaservicios.api.libro:
         condition: service_started
     entrypoint:
@@ -172,6 +170,7 @@ services:
       ASPNETCORE_LOGGING__CONSOLE__DISABLECOLORS: "true"
       DOTNET_USE_POLLING_FILE_WATCHER: "1"
       NUGET_FALLBACK_PACKAGES: /root/.nuget/fallbackpackages
+      Services__Autor: http://tiendaservicios.api.gateway
     image: tiendaserviciosapigateway:dev
     labels:
       com.microsoft.visualstudio.debuggee.arguments: ' --additionalProbingPath /root/.nuget/packages

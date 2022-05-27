@@ -34,12 +34,11 @@ services:
       context: C:\Users\Andres.pena\source\repos\ReposAndres\Microservices-ASPNET-Core-Docker-Azure-RabbitMQ\TiendaServicios
       dockerfile: TiendaServicios.Api.Gateway/Dockerfile
     depends_on:
-      Services__Autor=http://tiendaservicios.api.dateway:
-        condition: service_started
       tiendaservicios.api.libro:
         condition: service_started
     environment:
       ASPNETCORE_ENVIRONMENT: Development
+      Services__Autor: http://tiendaservicios.api.gateway
     image: tiendaserviciosapigateway
     networks:
       default: null

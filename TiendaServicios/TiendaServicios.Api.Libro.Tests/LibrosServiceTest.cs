@@ -111,7 +111,7 @@ namespace TiendaServicios.Api.Libro.Tests
             request.AutorLibro = Guid.Empty;
             request.FechaPublicacion = DateTime.Now;
 
-            var libro = await new Nuevo.Manejador(contexto).Handle(request,new System.Threading.CancellationToken());
+            var libro = await new Nuevo.Manejador(contexto, null).Handle(request,new System.Threading.CancellationToken());
 
             Assert.True(libro != null);
         }

@@ -71,3 +71,10 @@ C:\Users\Andres.pena\source\repos\ReposAndres\Microservices-ASPNET-Core-Docker-A
 C:\Users\Andres.pena\source\repos\ReposAndres\Microservices-ASPNET-Core-Docker-Azure-RabbitMQ\TiendaServicios\bin\Debug\Microsoft.AspNetCore.JsonPatch.dll
 C:\Users\Andres.pena\source\repos\ReposAndres\Microservices-ASPNET-Core-Docker-Azure-RabbitMQ\TiendaServicios\bin\Debug\Newtonsoft.Json.Bson.dll
 C:\Users\Andres.pena\source\repos\ReposAndres\Microservices-ASPNET-Core-Docker-Azure-RabbitMQ\TiendaServicios\bin\Debug\TiendaServicios.Api.Gateway.pdb
+C:\Users\Andres.pena\source\repos\ReposAndres\Microservices-ASPNET-Core-Docker-Azure-RabbitMQ\TiendaServicios\bin\Debug\TiendaServicios.RabbitMQ.Bus.dll
+C:\Users\Andres.pena\source\repos\ReposAndres\Microservices-ASPNET-Core-Docker-Azure-RabbitMQ\TiendaServicios\bin\Debug\RabbitMQ.Client.dll
+C:\Users\Andres.pena\source\repos\ReposAndres\Microservices-ASPNET-Core-Docker-Azure-RabbitMQ\TiendaServicios\bin\Debug\TiendaServicios.RabbitMQ.Bus.pdb
+C:\Users\Andres.pena\source\repos\ReposAndres\Microservices-ASPNET-Core-Docker-Azure-RabbitMQ\TiendaServicios\bin\Debug\TiendaServicios.Mensajeria.Email.dll
+C:\Users\Andres.pena\source\repos\ReposAndres\Microservices-ASPNET-Core-Docker-Azure-RabbitMQ\TiendaServicios\bin\Debug\SendGrid.dll
+C:\Users\Andres.pena\source\repos\ReposAndres\Microservices-ASPNET-Core-Docker-Azure-RabbitMQ\TiendaServicios\bin\Debug\StarkbankEcdsa.dll
+C:\Users\Andres.pena\source\repos\ReposAndres\Microservices-ASPNET-Core-Docker-Azure-RabbitMQ\TiendaServicios\bin\Debug\TiendaServicios.Mensajeria.Email.pdb

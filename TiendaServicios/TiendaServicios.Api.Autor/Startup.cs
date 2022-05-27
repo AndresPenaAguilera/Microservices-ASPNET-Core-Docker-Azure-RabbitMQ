@@ -8,6 +8,13 @@ using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
 using Microsoft.OpenApi.Models;
 using TiendaServicios.Api.Autor.Aplicacion;
+using TiendaServicios.Api.Autor.ManejadorRabit;
+using TiendaServicios.Mensajeria.Email.SendGridLibreria.Implement;
+using TiendaServicios.Mensajeria.Email.SendGridLibreria.Interface;
+using TiendaServicios.RabbitMQ.Bus;
+using TiendaServicios.RabbitMQ.Bus.BusRabbit;
+using TiendaServicios.RabbitMQ.Bus.EventoQueue;
+using TiendaServicios.RabbitMQ.Bus.Implement;
 using TiensaServicios.Api.Autor.Persistencia;
 
 namespace TiensaServicios.api.Autor
@@ -24,6 +31,17 @@ namespace TiensaServicios.api.Autor
         // This method gets called by the runtime. Use this method to add services to the container.
         public void ConfigureServices(IServiceCollection services)
         {
+            services.AddSingleton<IRabbitEventBus, RabbitEventBus>( sp => {
+                var scopeFactory = sp.GetRequiredService<IServiceScopeFactory>();
+                return new RabbitEventBus(sp.GetService<IMediator>(), scopeFactory);
+            });
+
+            services.AddSingleton<ISendGridEnviar, SendGridEnviar>();
+
+            services.AddTransient<EmailEventoManejador>();
+
+            services.AddTransient<IEventoManejador<EmailEventoQueue>, EmailEventoManejador>();
+
             services.AddControllers().AddFluentValidation( cfg  => cfg.RegisterValidatorsFromAssemblyContaining<Nuevo>());
             
             services.AddSwaggerGen(c =>
@@ -60,6 +78,9 @@ namespace TiensaServicios.api.Autor
             {
                 endpoints.MapControllers();
             });
+
+            var eventBus = app.ApplicationServices.GetRequiredService<IRabbitEventBus>();
+            eventBus.Suscribe<EmailEventoQueue, EmailEventoManejador>();
         }
     }
 }
